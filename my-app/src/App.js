@@ -5,6 +5,7 @@ import Home from './Home'
 import Test from './Test'
 import Form from './Form'
 import AdvancedForm from './AdvancedForm';
+import ValidForm from './ValidForm';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Link to ="test">Test</Link>
         <Link to ="form">Form</Link>
         <Link to ="advancedForm">AdvancedForm</Link>
+        <Link to ="validForm">ValidForm</Link>
 
         
       </nav>
@@ -27,6 +29,7 @@ function App() {
           <Route path="test" element={<Test/>} /> 
           <Route path="form" element={<Form/>} /> 
           <Route path="advancedForm" element={<AdvancedForm/>} /> 
+          <Route path="validForm" element={<ValidForm/>} /> 
       </Routes>
       </BrowserRouter>
     </div>
