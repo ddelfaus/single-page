@@ -27,6 +27,7 @@ function Form() {
             <input 
                 type="text"
                 name = "username"
+                value ={user.username}
                 onChange ={event => handleChange(event)} />
           </label>
           <label>
@@ -34,6 +35,7 @@ function Form() {
             <input 
                 type="text"
                 name = "password"
+                value ={user.password}
                 onChange={event => handleChange(event)} />
             </label>
           <button > Submit! </button>
